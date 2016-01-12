@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/list_selector"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/description"
+        android:paddingLeft="15dp"
+        android:textColor="#ffffff"
+     android:layout_below="@+id/titlerestuarant"
+        android:background="#b4222222"
+        android:text="TextDescription2"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titlerestuarant"
+
+            android:textSize="27dp"
+            android:text="Restuarant Sample A2"
+            android:textStyle="bold"
+            android:textColor="#f22000"
+            android:background="#cd222222"
+            android:paddingLeft="8dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/description"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
